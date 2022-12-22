@@ -1,0 +1,41 @@
+python-genty (1.3.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Declare rootless build.
+  * Bump Standards-Version to 4.5.0 (no changes).
+  * Bump debhelper-compat to 13.
+  * Switch to dh-sequence-*.
+  * Enable tests.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Tue, 21 Jul 2020 16:48:44 +0200
+
+python-genty (1.3.0-3) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Bump Standards-Version to 4.4.1.
+
+  [ Sandro Tosi ]
+  * Drop python2 support; Closes: #937781
+
+ -- Sandro Tosi <morph@debian.org>  Tue, 14 Apr 2020 09:56:00 -0400
+
+python-genty (1.3.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Use https protocol in Format field
+  * d/watch: Use https protocol
+  * Convert git repository from git-dpm to gbp layout
+  * Use debhelper-compat instead of debian/compat.
+  * Drop PyPy support
+  * Bump debhelper compat level to 12
+  * Bump standards version to 4.4.0 (no changes)
+  * Enable autopkgtest-pkg-python testsuite
+
+ -- Ondřej Nový <onovy@debian.org>  Tue, 23 Jul 2019 16:31:08 +0200
+
+python-genty (1.3.0-1) unstable; urgency=low
+
+  * Initial upload (closes: #811386).
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Mon, 18 Jan 2016 15:40:03 +0200
